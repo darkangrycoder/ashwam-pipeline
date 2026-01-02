@@ -1,0 +1,25 @@
+{
+  "micro": {
+    "precision": 0.4583,
+    "recall": 0.22,
+    "f1": 0.2973,
+    "tp": 11,
+    "fp": 13,
+    "fn": 39
+  },
+  "macro": {
+    "precision": 0.5917,
+    "recall": 0.22,
+    "f1": 0.2899,
+    "polarity_accuracy": 0.9444,
+    "bucket_accuracy": 0.9375,
+    "time_accuracy": 1.0,
+    "evidence_coverage": 1.0
+  },
+  "summary": {
+    "total_journals": 10,
+    "total_gold_objects": 50,
+    "total_pred_objects": 24,
+    "total_matches": 11
+  }
+}

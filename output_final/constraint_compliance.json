@@ -1,0 +1,18 @@
+{
+  "constraints_followed": [
+    "No fixed enum lists for symptoms/food/emotion/mind content",
+    "Every extracted item includes evidence_span",
+    "All predictions include 'text' field",
+    "Deterministic: same input → same output",
+    "No hallucinations: evidence must be in text"
+  ],
+  "implementation_details": {
+    "domain_detection": "Context-based inference without fixed keywords",
+    "evidence_extraction": "Exact substrings from journal text",
+    "safety_mechanisms": [
+      "Evidence validation (substring check)",
+      "Generic phrase filtering",
+      "Polarity detection for uncertainty/negation"
+    ]
+  }
+}
